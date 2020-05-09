@@ -24,3 +24,4 @@ end
     @@post_count
   end
 end
+end
