@@ -10,12 +10,12 @@ class Author
 
   def posts
     Post.all.select do |post|
-      post.name == self
+      post.author == self
   end
  end
 
  def add_post(post)
-   post.author = self
+   post.name = self
  end
 
   def self.post_count
